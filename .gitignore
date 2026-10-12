@@ -1,0 +1,19 @@
+# on-paper-analysis — public repo.
+# StatsBomb's licence (clauses 1.2.1 and 7) bars redistributing their data or
+# anything derived from it, so the event cache and every CSV stay out of git.
+/data/
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
